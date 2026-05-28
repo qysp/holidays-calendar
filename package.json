@@ -12,18 +12,26 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.90",
-    "@iconify-json/simple-icons": "^1.2.70",
-    "@nuxt/ui": "^4.4.0",
-    "nuxt": "^4.3.1",
+    "@iconify-json/lucide": "^1.2.110",
+    "@iconify-json/simple-icons": "^1.2.84",
+    "@nuxt/ui": "^4.8.0",
+    "nuxt": "^4.4.6",
     "open-holiday-js": "^1.0.3",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.15.1",
-    "eslint": "^10.0.0",
+    "@nuxt/eslint": "^1.15.2",
+    "eslint": "^10.4.0",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.4"
+    "vue-tsc": "^3.3.2"
   },
-  "packageManager": "pnpm@10.29.3"
+  "packageManager": "pnpm@10.29.3",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "unrs-resolver",
+      "vue-demi"
+    ]
+  }
 }
